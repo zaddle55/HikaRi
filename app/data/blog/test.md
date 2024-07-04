@@ -2,7 +2,7 @@
 title: My fancy test
 date: '2024-01-31'
 tags: ['hello']
-draft: false
+draft: true
 summary:
 images: []
 ---

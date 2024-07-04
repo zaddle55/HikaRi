@@ -16,7 +16,8 @@
     "setup": "prisma generate && prisma migrate deploy && prisma db seed",
     "start": "cross-env NODE_ENV=production node ./build/server.js",
     "typecheck": "tsc",
-    "postinstall": "patch-package"
+    "postinstall": "patch-package",
+    "post": "node ./scripts/createPost.js"
   },
   "prettier": {},
   "eslintIgnore": [
